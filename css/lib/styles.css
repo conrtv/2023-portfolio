@@ -44,3 +44,9 @@ body {
 {
     text-decoration: none;
 }
+
+.vertinfo {
+    writing-mode: vertical-lr;
+   text-orientation: sideways;
+   transform: rotate(-180deg);;
+}
