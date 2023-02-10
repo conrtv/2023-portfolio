@@ -44,6 +44,7 @@ a:link,
 a:active {
   text-decoration: none;
   cursor: pointer;
+  position: fixed;
 }
 .spacingside {
   padding: 10px;
@@ -61,4 +62,8 @@ pre {
   white-space: -pre-wrap; /* Opera 4-6 */
   white-space: -o-pre-wrap; /* Opera 7 */
   word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+.fixposition {
+  position: fixed;
 }
