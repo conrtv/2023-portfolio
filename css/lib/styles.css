@@ -5,6 +5,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: 0.3fr 0.5fr 2fr;
+  grid-template-areas: "name menu content";
   grid-gap: 0px;
   grid-auto-rows: auto;
   grid-auto-columns: auto;
@@ -52,4 +53,12 @@ a:active {
 }
 .hidden {
   display: none;
+}
+
+pre {
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
