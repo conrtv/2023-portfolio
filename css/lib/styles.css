@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: 'Vesper Libre', serif;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: .3fr .5fr 2fr;
+    grid-gap: 0px;
+    grid-auto-rows: auto;
+    grid-auto-columns: auto;
+    height: 100vh;
+    width: 100%;
+    /* background-color: #333333; */
+  }
+  .name {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    /* background-color: #f2f2f2; */
+    border-right: 1px solid #000
+
+  }
+  .menu { 
+    grid-column: 2 / 3;
+    grid-row: 1;
+    /* background-color: #c0c023; */
+    border-right: 1px solid #000;
+  }
+  
+  .content { 
+    grid-column: 3 / 3;
+    grid-row: 1;
+    /* background-color: #c0c0c0; */
+  }
+  ul{
+    list-style-type: none;
+  }
+
+  li{
+    text-decoration: none;
+    color: #000;
+  }
+
+  a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
