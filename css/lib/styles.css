@@ -32,7 +32,7 @@ body {
 }
 ul {
   list-style-type: none;
-  margin-top: 5;
+  margin-top: 10px;
   padding-left: 0;
   padding: 10px;
 }
@@ -42,11 +42,14 @@ a:visited,
 a:link,
 a:active {
   text-decoration: none;
+  cursor: pointer;
 }
 .spacingside {
   padding: 10px;
 }
-
+.spacingtop {
+  margin-top: 10px;
+}
 .hidden {
   display: none;
 }
