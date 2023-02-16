@@ -43,3 +43,16 @@ var x = setInterval(function () {
     $("#time").text("Graduated!");
   }
 }, 1000);
+
+//590
+
+// window.resize(function () {
+//   var pageWidth = $(window).width();
+//   if ($(window).width() < 590) {
+//     $("#bottomLayer").removeClass("spacer");
+//     $("#bottomLayer").addClass("display:none");
+//   } else {
+//     $("#bottomLayer").removeClass("display:none");
+//     $("#bottomLayer").addClass("spacer");
+//   }
+// });
