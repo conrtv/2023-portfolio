@@ -41,6 +41,7 @@ section {
   align-items: center;
   min-height: 400px;
   text-align: center;
+  z-index: 2;
 }
 /* heading/nav bar section */
 header {
@@ -86,7 +87,7 @@ nav ul li {
   background-size: cover;
   position: absolute;
   bottom: 0;
-  z-index: auto;
+  z-index: 1;
 }
 .smallScreen {
   aspect-ratio: 960/800;
