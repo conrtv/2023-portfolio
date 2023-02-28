@@ -21,7 +21,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Prompt", sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: white;
   background: #a8a89e;
   overflow-x: hidden;
@@ -101,7 +101,7 @@ nav ul li {
 }
 
 .layer1 {
-  background-image: url("../../trlayer.svg");
+  background-image: url('../../trlayer.svg');
 }
 
 .flip {
